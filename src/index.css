@@ -1,0 +1,24 @@
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'SF Pro Display', sans-serif;
+}
+
+:root {
+	/* COLORS */
+	--black: #000000;
+	--gray-dark: #383839;
+	--gray: #979797;
+	--gray-light: #d6d6d6;
+	--white: #ffffff;
+	--blue: #2994f8;
+
+	/* SIZES */
+	--xs: 0.75rem;
+	--sm: 0.875rem;
+	--md: 1rem;
+	--lg: 1.125rem;
+	--xl: 1.25rem;
+}

@@ -1,0 +1,11 @@
+.navbar--item {
+	color: var(--gray);
+	text-decoration: none;
+
+	font-size: var(--xs);
+	font-weight: 400;
+}
+
+.navbar--item:hover {
+	color: var(--gray-light);
+}

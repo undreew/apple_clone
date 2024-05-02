@@ -1,0 +1,16 @@
+.support-container {
+	font-size: var(--sm);
+	text-align: center;
+
+	padding: 0.75rem 1.25rem;
+	background-color: #f5f5f7;
+}
+
+.support-container--text a {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+.support-container--text a:hover {
+	text-decoration: underline;
+}

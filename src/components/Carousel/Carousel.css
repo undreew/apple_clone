@@ -1,0 +1,31 @@
+.carousel {
+	margin: auto;
+}
+
+.slick-slide > div {
+	margin: 0 10px;
+}
+
+.slick-list {
+	margin: 0 -10px;
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+	background-color: var(--gray-light);
+	opacity: 0.3;
+
+	height: 100%;
+	min-width: 5rem;
+
+	z-index: 10;
+}
+
+.slick-arrow.slick-next {
+	right: 0rem;
+}
+
+.slick-arrow.slick-prev {
+	left: 0rem;
+	z-index: 100;
+}

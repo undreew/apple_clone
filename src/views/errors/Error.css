@@ -1,0 +1,13 @@
+.error {
+	max-width: 100vw;
+	min-height: 90vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.error--container h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+}

@@ -1,0 +1,134 @@
+.section--header {
+	position: relative;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	gap: var(--xs);
+}
+
+.section--header.light {
+	color: var(--white);
+}
+
+.section--header.dark {
+	color: var(--black);
+}
+
+.section--header.top {
+	top: 2rem;
+	align-self: flex-start;
+}
+
+.section--header.right {
+	left: 10rem;
+	align-self: center;
+}
+
+.section--header.bottom {
+	bottom: 2rem;
+	align-self: flex-end;
+}
+
+.section--header.left {
+	right: 10rem;
+	align-self: center;
+}
+
+.section--header.large h1 {
+	font-size: 3.25rem;
+	font-weight: 500;
+}
+
+.section--header.large h2 {
+	font-size: 1.75rem;
+	font-weight: 300;
+
+	display: flex;
+	justify-content: center;
+	gap: 0.25rem;
+}
+
+.section--header.large p {
+	font-size: 1.25rem;
+	font-weight: 400;
+	color: var(--gray);
+}
+
+.section--header.medium h1 {
+	font-size: 2.75rem;
+	font-weight: 400;
+}
+
+.section--header.medium h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.section--header.medium p {
+	font-size: 1.125rem;
+	font-weight: 400;
+	color: var(--gray);
+}
+
+.section--header.small h1 {
+	font-size: 2.125rem;
+	font-weight: 400;
+}
+
+.section--header.small h2 {
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+
+.section--header.small p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--gray);
+}
+
+.section--header__main-header-image {
+	display: flex;
+	justify-content: center;
+}
+
+.section--header__links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.section--header__link {
+	display: flex;
+	gap: 0.235rem;
+}
+
+.section--header__link.large a {
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+.section--header__link.medium a {
+	font-size: 1.125rem;
+	text-decoration: none;
+}
+
+.section--header__link.small a {
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+.section--header__link a:hover {
+	text-decoration: underline;
+	text-underline-offset: 0.125rem;
+}
+
+.section--header__link a,
+.section--header__link span {
+	color: var(--blue);
+}
+
+.section--header__link span {
+	display: flex;
+	align-self: center;
+}
